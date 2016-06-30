@@ -1,0 +1,15 @@
+class AnalysisController < ApplicationController
+  def new
+    puts Analysis.test
+  end
+
+  def create
+  end
+
+  def destroy
+  end
+
+  def myTest
+
+  end
+end

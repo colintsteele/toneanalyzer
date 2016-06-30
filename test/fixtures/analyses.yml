@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  body: 
+  anger: 
+  disgust: 
+  joy: 
+  fear: 
+  sadness: 1.5
+
+two:
+  body: 
+  anger: 
+  disgust: 
+  joy: 
+  fear: 
+  sadness: 1.5
