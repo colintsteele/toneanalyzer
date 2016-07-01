@@ -1,7 +1,6 @@
 require_relative '../../app/poros/tone_service'
 require 'spec_helper'
 
-
 describe 'ToneService' do
 
   before :all do
@@ -15,7 +14,6 @@ describe 'ToneService' do
   it 'got credentials for IBM' do
     expect(Keys::BLUE_USER).not_to be_nil
     expect(Keys::BLUE_KEY).not_to be_nil
-
   end
 
   it 'Got a 200 response from IBM' do

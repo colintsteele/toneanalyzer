@@ -9,7 +9,4 @@ class AnalysisController < ApplicationController
   def destroy
   end
 
-  def myTest
-
-  end
 end
