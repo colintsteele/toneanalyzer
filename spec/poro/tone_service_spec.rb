@@ -3,10 +3,6 @@ require 'spec_helper'
 
 describe 'ToneService' do
 
-  before :all do
-    #binding.pry
-  end
-
   before :each do
     @ts = ToneService.new('Any Text will do!')
   end

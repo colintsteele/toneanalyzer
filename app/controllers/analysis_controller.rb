@@ -1,4 +1,7 @@
+require ''
+
 class AnalysisController < ApplicationController
+
   def new
     puts Analysis.test
   end
