@@ -16,9 +16,8 @@ class ToneService
     request = Net::HTTP::Post.new(@uri)
     request.body = {text:@text.to_s}.to_json
     request['Content-Type'] = 'application/json'
-    binding.pry
     request.basic_auth(BLUE_USER, BLUE_KEY)
-
+    binding.pry
     res = Net::HTTP.start(@uri.hostname, @uri.port, :use_ssl => true) do |http|
       http.request(request)
     end
