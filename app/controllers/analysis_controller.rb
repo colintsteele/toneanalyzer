@@ -1,5 +1,3 @@
-require ''
-
 class AnalysisController < ApplicationController
 
   def new
@@ -7,9 +5,11 @@ class AnalysisController < ApplicationController
   end
 
   def create
+
   end
 
   def destroy
+
   end
 
 end

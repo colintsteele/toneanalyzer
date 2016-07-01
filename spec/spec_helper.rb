@@ -1,6 +1,6 @@
 require 'pry'
 require '~/.api/keys'
-
+require_all '~/RubymineProjects/untitled/app'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
